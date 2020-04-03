@@ -8,10 +8,17 @@
        <put-attribute name="content" value="" />
   </definition>
   
+  <definition name="template_empty" template="/WEB-INF/views/templates/template_empty.jsp">
+       <put-attribute name="content" value="" />
+  </definition>
+  
   <definition name="admin.dashboard.index" extends="template_user">
        <put-attribute name="content" value="/WEB-INF/views/admin/dashboard/index.jsp" />
   </definition>
   
+  <definition name="admin.login.index" extends="template_user">
+       <put-attribute name="content" value="/WEB-INF/views/admin/login/index.jsp" />
+  </definition>
   
   </tiles-definitions>
   
